@@ -19,5 +19,7 @@ public class SmsStarter {
         sms.registerStudent(stu);
         sms.registerStudent(stu2);
         sms.listAllStudents();
+        sms.registerStudent(stu);
+        sms.listAllStudents();
     }
 }
