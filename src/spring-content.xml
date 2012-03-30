@@ -8,9 +8,6 @@ xmlns:util="http://www.springframework.org/schema/util"
 xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd   http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-2.5.xsd   http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd">
 
 
-  <!--bean id="objectA" class="org.csedemo.spring.ClassA" p:objectB-ref="objectB" p:objectC-ref="objectC" init-method="doSomething"/>
-  <bean id="objectB" class="org.csedemo.spring.ClassB"/>
-  <bean id="objectC" class="org.csedemo.spring.ClassC"/-->
   <bean id="sms" class="org.cse.springtute.StudentManagementSystem" p:repo-ref="repo1"> </bean>
   <bean id="repo1" class="org.cse.springtute.SimpleStudentRepository"></bean>
   <bean id="student1"  class="org.cse.springtute.Student" p:firstName="LAAAA" p:lastName="WWWWW" p:regNumber="1000" p:address="jjjj" > </bean>
